@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+       <EditText
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/edittextstyle"
+           android:textColor="#000"
+           android:layout_weight="6"
+           android:maxLines="1"
+           android:hint="Search By Name"
+           android:textColorHint="#000"
+           android:drawableLeft="@android:drawable/ic_menu_search"
+           android:id="@+id/home_search_filed"
+           style="@style/Widget.AppCompat.ActionBar.Solid"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/search_home"
+            android:background="@drawable/ic_search_black_24dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+</LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/home_rec">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

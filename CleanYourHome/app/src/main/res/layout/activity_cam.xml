@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mcst.cleanyourhome.Cam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagecapture"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4.2dp"
+            android:layout_marginRight="4.2dp"
+            android:layout_marginTop="13.3dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/image7"
+            android:cropToPadding="false"
+            android:scaleType="center"
+            android:src="@drawable/camera_carton" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/brass_check"
+                android:layout_height="wrap_content"
+                android:text="Brass" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/brass_amount"
+                android:inputType="numberDecimal"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/almunim_check"
+                android:layout_height="wrap_content"
+                android:text="Aluminium" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/almunim_amount"
+                android:inputType="numberDecimal"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/copper_check"
+                android:layout_height="wrap_content"
+                android:text="Copper" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/copper_amount"
+                android:inputType="numberDecimal"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tyre_check"
+                android:layout_height="wrap_content"
+                android:text="Tyre" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/tyre_amount"
+                android:inputType="numberDecimal"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/polythene_check"
+                android:layout_height="wrap_content"
+                android:text="Black Polythene" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/polythene_amount"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/can_check"
+                android:layout_height="wrap_content"
+                android:text="Cans" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/can_amount"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/paper_check"
+                android:layout_height="wrap_content"
+                android:text="Paper" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/paper_amount"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/plastic_check"
+                android:layout_height="wrap_content"
+                android:text="Plastic" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/plastic_amount"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/other_check"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Amount in Kg"
+                android:id="@+id/other_amount"
+                android:background="@color/button_selectorcolor"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/junk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.5dp"
+            android:background="#AAA"
+            android:hint="Write Your Notes!"
+            android:inputType="textMultiLine"
+            android:lines="15"
+            android:minLines="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scrollbars="vertical|horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/send_message"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="5dp"
+                android:background="#EDEDED"
+                android:text="Send"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

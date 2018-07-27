@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CleanYourHome</string>
+    <string name="signin">SIGN IN</string>
+    <string name="Register">Register</string>
+    <string name="login">login</string>
+    <string name="show_pwd">show_pwd</string>
+    <string name="Cleanthestreet">Clean the street</string>
+    <string name="recycling">recycling</string>
+    <string name="title_activity_lon">Sign in</string>
+
+    <string name="country">Country:</string>
+    <string name="register">Register</string>
+    <string name="confirmpassword">confirmPassword:</string>
+    <string name="email">email:</string>
+    <string name="fullname">fullName:</string>
+    <string name="mobilenumber">mobileNumber:</string>
+    <string name="passowrd">passowrd:</string>
+    <string name="front_image">front image</string>
+    <string name="image1">image1</string>
+    <string name="image2">image2</string>
+    <string name="image3">image3</string>
+    <string name="image4">image4</string>
+    <string name="image5">image5</string>
+    <string name="image6">image6</string>
+    <string name="show_password">show_password</string>
+    <string name="welcome">WELCOME</string>
+    <string name="sign_in">sign in</string>
+    <string name="image7">image7</string>
+
+    <string-array name="country">
+        <item>Alexandria</item>
+        <item>Aswan</item>
+        <item>Asyut</item>
+        <item>Beheira</item>
+        <item>Beni Suef</item>
+        <item>Cairo</item>
+        <item>Dakahlia</item>
+        <item>Damietta</item>
+        <item>Faiyum</item>
+        <item>Gharbia</item>
+        <item>Giza</item>
+        <item>Ismailia</item>
+        <item>Kafr El Sheikh</item>
+        <item>Luxor</item>
+        <item>Matruh</item>
+        <item>Minya</item>
+        <item>Monufia</item>
+        <item>New Valley</item>
+        <item>North Sinai</item>
+        <item>Port Said</item>
+        <item>Qalyubia</item>
+        <item>Qena</item>
+        <item>Red Sea</item>
+        <item>Sharqia</item>
+        <item>Sohag</item>
+        <item>South Sinai</item>
+        <item>Suez</item>
+    </string-array>
+
+
+</resources>

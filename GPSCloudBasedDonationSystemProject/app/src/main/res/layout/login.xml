@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="momen.shahen.com.gps_cloudbaseddonationsystemproject.MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/loginemail"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#A80000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#A80000"
+        android:id="@+id/loginpass"
+        android:hint="Password"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login as"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#266FF7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:id="@+id/hos"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donner"
+        android:id="@+id/donne"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:id="@+id/signup"
+        android:textStyle="bold"
+        android:textColor="#A80000"
+        android:background="#fff"
+        android:layout_marginLeft="153dp"/>
+</LinearLayout>

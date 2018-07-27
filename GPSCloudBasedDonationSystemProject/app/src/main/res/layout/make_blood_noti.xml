@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:theme="@style/Widget.AppCompat.ActionBar"
+    android:background="#fff">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/state"
+        android:id="@+id/bloodsp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9dc0f9"
+        android:hint="Doctor Name"
+        android:id="@+id/blooddoc"
+        android:textColor="#001b47"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:inputType="textMultiLine"
+        android:textColor="#a50"
+        android:id="@+id/bloodcon"
+        android:minLines="4"
+        android:lines="15"
+        android:scrollbars="vertical|horizontal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/bloodpost"
+        android:onClick="BloodPost"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

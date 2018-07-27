@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f4c3c3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hos_nam_blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital name"
+            android:layout_marginRight="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.Switch"/>
+        <TextView
+            android:id="@+id/hos_tim_blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hos_doc_name_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification doctor Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hos_state_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification State"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hos_body_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification Body"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/blood_donate"
+            android:text="Donate"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/blood_map"
+            android:text="Map"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/blood_share"
+            android:text="Share"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.home.trying.ScanMedicineActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/testAutoComplete"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rel"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textresult"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rel" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginBottom="103dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="53dp"
+        android:background="#4299cc"
+        android:text="Search"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/rel"
+        app:layout_constraintStart_toEndOf="@+id/testAutoComplete"
+        app:layout_constraintTop_toTopOf="@+id/rel" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="63dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textresult"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="0dp"
+        android:textAlignment="center"
+        android:layout_height="130dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testAutoComplete"
+        app:srcCompat="@android:drawable/btn_star" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="16dp"
+        android:entries="@array/pharmacy"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textresult" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="71dp"
+        android:scrollbars="vertical|horizontal"
+        android:maxLines="10"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="86dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="11dp"
+        android:text="Pharmacy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert"
+        android:background="#4299cc"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="527dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/result"/>
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:text="ewgbjlewgjlbgeljbgjebl" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="200px"
+            android:layout_height="300px"
+            android:layout_marginLeft="310dp"
+            android:src="@mipmap/ic_launcher_round" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:theme="@style/Widget.AppCompat.ActionBar"
+    android:background="#fff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9"
+        android:textColor="#a50"
+        android:hint="Sponsor"
+        android:id="@+id/pointspon"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9"
+        android:inputType="textMultiLine"
+        android:textColor="#a50"
+        android:minLines="4"
+        android:lines="15"
+        android:id="@+id/pointcon"
+        android:scrollbars="vertical|horizontal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/pointpost"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

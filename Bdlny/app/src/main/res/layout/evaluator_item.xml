@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="1dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="5dp"
+           android:paddingBottom="8dp"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/ic_profile" />
+
+        <TextView
+            android:id="@+id/evaluator_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:fontFamily="serif"
+            android:paddingLeft="15dp"
+            android:paddingTop="30dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">GPS-Cloud Based Donation System Project</string>
+    <string-array name="listnav">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Settings</item>
+
+    </string-array>
+    <string-array name="signup">
+        <item>Hospital</item>
+        <item>Donner</item>
+    </string-array>
+    <string-array name="citys">
+        <item>Alexandria</item>
+        <item>Aswan</item>
+        <item>Asyut</item>
+        <item>Beheira</item>
+        <item>Beni Suef</item>
+        <item>Cairo</item>
+        <item>Dakahlia</item>
+        <item>Damietta</item>
+        <item>Faiyum</item>
+        <item>Gharbia</item>
+        <item>Giza</item>
+        <item>Ismailia</item>
+        <item>Kafr El Sheikh</item>
+        <item>Luxor</item>
+        <item>Matruh</item>
+        <item>Minya</item>
+        <item>Monufia</item>
+        <item>New Valley</item>
+        <item>North Sinai</item>
+        <item>Port Said</item>
+        <item>Qalyubia</item>
+        <item>Qena</item>
+        <item>Red Sea</item>
+        <item>Sharqia</item>
+        <item>Sohag</item>
+        <item>South Sinai</item>
+        <item>Suez</item>
+    </string-array>
+    <string-array name="lan">
+        <item>English</item>
+    </string-array>
+    <string-array name="noti_type">
+        <item>Blood Notification</item>
+        <item>Money Notification</item>
+
+        <item>Points Notification</item>
+    </string-array>
+    <string-array name="state">
+        <item>Dangerous</item>
+        <item>Medium</item>
+        <item>For Blood bank</item>
+    </string-array>
+    <string name="ab1">This app is designed to help patients and sufferers by donating blood or money to them to treat them and hospital expenses,\n
+        we can donate Blood to blood banks in a state of lack of blood\n
+        Also we can donate to hospitals that need to buy some medical equipment to help patients...</string>
+
+    <string name="ab2">Hospitals send messages to users asking them to donate.
+In cases of serious injuries that require blood, messages are sent to people close to the hospital to ensure their quick arrival to save the life of the injured.
+If you donate Palma, the message contains all the information that the donor needs.</string>
+    <string name="ab3">We are a group of people who have developed this program for a humanitarian goal only and not for profit purposes. </string>
+    <string name="ab4">You can communicate with us or send us your opinions and suggestions by sending us a message.</string>
+
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_reports">Reports</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_make__notification1">Management</string>
+    <string name="string_choose_file">Choose File</string>
+    <string name="string_upload_image">Upload Image</string>
+    <string name="string_view_image">View Image</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#1234">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="Welcome TO Badlny App:"
+            android:textAllCaps="true"
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="6dp"
+            android:text="Project Of Exchange Items That Is An Android Based Application,
+Which Provide Exchanging Items With Other Customers,
+And You Can Buy New Items From Other Customers,
+The Deal Is Done Among Customers No One Can Dealed With You."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/tv_thank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thanks For Using This App"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/tv_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Badlny Team..."
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="12dp"
+
+        android:background="@drawable/button_shape"
+        android:progressTint="@color/colorPrimary"
+        android:rating="2"
+
+        />
+
+
+</RelativeLayout>

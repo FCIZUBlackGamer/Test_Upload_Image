@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context="com.example.mcst.cleanyourhome.RegisterActivity">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/register"
+        android:contentDescription="@string/front_image" />
+    <ImageView
+        android:id="@+id/imageViewname"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/user"
+        android:layout_above="@+id/userEmailId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/image1" />
+
+    <EditText
+        android:layout_below="@+id/register"
+        android:layout_toRightOf="@+id/imageViewname"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fullName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/fullname"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/fullName"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+    <ImageView
+        android:id="@+id/imageViewemail"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/email"
+        android:layout_above="@+id/mobileNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/image2" />
+
+    <EditText
+        android:layout_toRightOf="@id/imageViewemail"
+        android:layout_below="@+id/view"
+        android:id="@+id/userEmailId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@+id/userEmailId"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewphone"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/mobile"
+        android:layout_below="@+id/userEmailId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/view3"
+        android:layout_alignRight="@+id/linerightpass"
+        android:layout_alignEnd="@+id/linerightpass"
+        android:contentDescription="@string/image3" />
+
+
+    <EditText
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/imageViewphone"
+        android:id="@+id/mobileNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/mobilenumber"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+    <View
+        android:layout_below="@+id/mobileNumber"
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewlocation"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@android:drawable/ic_menu_mylocation"
+        android:contentDescription="@string/image4" />
+
+    <Spinner
+        android:layout_below="@id/view3"
+        android:layout_toRightOf="@+id/imageViewlocation"
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/country"
+        android:entries="@array/country"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+    <ImageView
+        android:id="@+id/imageViewpass"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/pass"
+        android:layout_above="@+id/imageViewcpass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/image5" />
+    <View
+        android:id="@+id/linerightpass"
+        android:layout_below="@+id/view4"
+        android:layout_toRightOf="@+id/imageViewpass"
+        android:layout_marginTop="20dp"
+        android:layout_width="5dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:layout_below="@id/view4"
+        android:layout_toRightOf="@+id/imageViewpass"
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/passowrd"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewcpass"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view5"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        android:contentDescription="@string/image6"/>
+
+    <EditText
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/imageViewcpass"
+        android:id="@+id/confirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1" />
+
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@color/background_color"
+        android:padding="3dp"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
+
+
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Guide For This Application:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="After your Registration And Login To App.
+You Will Become In Main Page You Will See All The Products,
+Or Search The Products By Names.
+You Can See All Details About Product When You Click On The Name Of product.
+You Can Call The Person Or Go to him By maps.
+When You open Navigation You will See All departments,Profile,Home
+And you Can Logout After Using This App.
+"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Terms of Services And Privacy Policy"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+
+</LinearLayout>

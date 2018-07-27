@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SecMedChain</string>
+    <string name="button_start">Start Authenticate</string>
+    <string name="button_Check">Check Now</string>
+    <string name="button_Profile">Profile</string>
+    <string-array name="pharmacy">
+        <item>Abu Baker</item>
+        <item>Om Baker</item>
+        <item>Baker</item>
+    </string-array>
+</resources>
